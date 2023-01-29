@@ -37,7 +37,8 @@ wav_fn='xxx.wav'
 # The path to the input audio. The default path is in the project's root directory.
 
 use_crepe=True  
-# CREPE is an F0 extraction algorithm. It has good performance but is slow. Changing this to False will use the slightly inferior but much faster Parselmouth algorithm.
+# CREPE is an F0 extraction algorithm. It has good performance but is slow. Changing this to False will use the slightly inferior but much faster Parselmouth algorithm. hello
+
 
 thre=0.05  
 # CREPE's noise filtering threshold. It can be increased if the input audio is clean, but if the input audio is noisy, keep this value or decrease it. This parameter will have no effect if the previous parameter is set to False.
